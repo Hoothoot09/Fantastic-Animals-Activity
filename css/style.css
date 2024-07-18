@@ -1,0 +1,36 @@
+/* Global */
+@import "/css/global/global.css";
+
+/* Estrutura */
+@import "/css/global/estrutura.css";
+
+/* Animais */
+@import "/css/global/animais.css";
+
+/* FAQ */
+@import "/css/global/faq.css";
+
+/* Contato */
+@import "/css/global/contato.css";
+
+/* Footer */
+@import "/css/global/footer.css";
+
+/* Modal */
+@import "/css/modal/modal.css";
+
+/* Tooltips */
+@import "/css/tooltip/tooltip.css";
+
+/* Menu */
+@import "/css/menus/menu.css";
+@import "/css/menus/dropdown-menu.css";
+@import "/css/menus/menu-mobile.css";
+
+/* Numeros */
+@import "/css/numeros/numeros.css";
+
+/* JavaScript */
+@import "/css/animacao/js-accordion.css";
+@import "/css/animacao/js-content.css";
+@import "/css/animacao/js-scroll.css";

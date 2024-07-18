@@ -1,0 +1,30 @@
+.mapa {
+  grid-column: 2;
+}
+.dados {
+  grid-column: 3;
+}
+.dados li {
+  margin-bottom: 1rem;
+  font-family: Helvetica, Arial;
+}
+.dados li::before {
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 10px;
+  margin-right: 10px;
+  background: #ffbb55;
+}
+.btc-preco {
+  background: #33ff44;
+  padding: 0.2rem 0.5rem;
+  font-weight: bold;
+  border-radius: 3px;
+}
+@media (max-width: 700px) {
+  .mapa,
+  .dados {
+    grid-column: 1 / 3;
+  }
+}
