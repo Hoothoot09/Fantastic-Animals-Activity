@@ -3,7 +3,7 @@ const path = require("path");
 module.exports = {
   entry: "./js/script.js",
   output: {
-    path: path.resolve(__dirname, "./"),
+    path: path.resolve(__dirname, "dist"),
     filename: "main.js",
   },
   module: {
@@ -15,7 +15,7 @@ module.exports = {
           loader: "babel-loader",
           options: {
             presets: ["@babel/preset-env"],
-            plugins: ["@babel/plugins-transform-runtime"],
+            plugins: ["@babel/plugin-transform-runtime"],
           },
         },
       },

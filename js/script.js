@@ -2,7 +2,7 @@ import initAccordian from "./modules/accordion.js";
 import initDropDownMenu from "./modules/dropdown-menu.js";
 import initModal from "./modules/modal.js";
 import initAnimacaoScroll from "./modules/scroll-animacao.js";
-import ScrollSuave from "./modules/scroll-suave.js";
+import ScrollSuave from "./modules/smooth-scroll.js";
 import initTabNav from "./modules/tabnav.js";
 import initTooltip from "./modules/tooltip.js";
 import initMenuMobile from "./modules/menu-mobile.js";
