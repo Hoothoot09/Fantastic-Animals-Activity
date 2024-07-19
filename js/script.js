@@ -1,4 +1,4 @@
-import initAccordian from "./modules/accordion.js";
+import Accordion from "./modules/accordion.js";
 import initDropDownMenu from "./modules/dropdown-menu.js";
 import initModal from "./modules/modal.js";
 import initAnimacaoScroll from "./modules/scroll-animacao.js";
@@ -13,7 +13,9 @@ import initFetchBitcoin from "./modules/fetch-bitcoin.js";
 const smoothScroll = new ScrollSuave('[data-menu="suave"] a[href^="#"]');
 smoothScroll.init();
 
-initAccordian();
+const accordion = new Accordion('[data-anime="accordion"] dt');
+accordion.init();
+
 initDropDownMenu();
 initModal();
 initAnimacaoScroll();
