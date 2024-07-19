@@ -26,7 +26,7 @@ export default class TabNav {
     if (this.tabMenu.length && this.tabContent.length) {
       //active first item
       this.activeTab(0);
-      this.addTabNavgiEvent();
+      this.addTabNavEvent();
     }
   }
 }
