@@ -63,6 +63,7 @@
     "graceful-fs": "^4.2.11",
     "has-flag": "^4.0.0",
     "hasown": "^2.0.2",
+    "https-browserify": "^1.0.0",
     "import-local": "^3.1.0",
     "interpret": "^3.1.1",
     "is-core-module": "^2.14.0",
