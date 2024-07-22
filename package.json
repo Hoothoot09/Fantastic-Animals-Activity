@@ -33,6 +33,7 @@
     "colorette": "^2.0.20",
     "commander": "^2.20.3",
     "common-path-prefix": "^3.0.0",
+    "constants-browserify": "^1.0.0",
     "convert-source-map": "^2.0.0",
     "core-js-compat": "^3.37.1",
     "cross-spawn": "^7.0.3",

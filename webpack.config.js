@@ -20,6 +20,7 @@ module.exports = {
       vm: require.resolve("vm-browserify"),
       querystring: require.resolve("querystring-es3"),
       os: require.resolve("os-browserify/browser"),
+      constants: require.resolve("constants-browserify"),
     },
   },
   module: {
