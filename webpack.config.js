@@ -17,6 +17,7 @@ module.exports = {
       https: require.resolve("https-browserify"),
       http: require.resolve("stream-http"),
       url: require.resolve("url/"),
+      vm: require.resolve("vm-browserify"),
     },
   },
   module: {
