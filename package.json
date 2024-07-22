@@ -86,6 +86,7 @@
     "p-limit": "^2.3.0",
     "p-locate": "^4.1.0",
     "p-try": "^2.2.0",
+    "path-browserify": "^1.0.1",
     "path-exists": "^4.0.0",
     "path-key": "^3.1.1",
     "path-parse": "^1.0.7",
