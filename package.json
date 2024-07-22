@@ -21,6 +21,7 @@
     "babel-plugin-polyfill-corejs2": "^0.4.11",
     "babel-plugin-polyfill-corejs3": "^0.10.4",
     "babel-plugin-polyfill-regenerator": "^0.6.2",
+    "browserify-fs": "^1.0.0",
     "browserify-zlib": "^0.2.0",
     "browserslist": "^4.23.2",
     "buffer": "^6.0.3",
