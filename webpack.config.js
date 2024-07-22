@@ -29,6 +29,7 @@ module.exports = {
       worker_threads: false,
       child_process: false,
       tty: require.resolve("tty-browserify"),
+      crypto: require.resolve("crypto-browserify"),
     },
   },
   module: {
