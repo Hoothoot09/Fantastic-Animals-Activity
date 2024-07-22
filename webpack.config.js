@@ -3,10 +3,11 @@ const path = require("path");
 module.exports = {
   entry: "./js/script.js",
   output: {
-    path: path.resolve(__dirname, "dist"),
+    path: path.resolve(__dirname, "./"),
     filename: "main.js",
   },
   resolve: {
+    extensions: [".ts", ".js"],
     fallback: {
       util: require.resolve("util/"),
       path: require.resolve("path-browserify"),
