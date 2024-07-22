@@ -18,6 +18,7 @@ module.exports = {
       http: require.resolve("stream-http"),
       url: require.resolve("url/"),
       vm: require.resolve("vm-browserify"),
+      querystring: require.resolve("querystring-es3"),
     },
   },
   module: {
