@@ -12,6 +12,7 @@ module.exports = {
       path: require.resolve("path-browserify"),
       crypto: require.resolve("crypto-browserify"),
       zlib: require.resolve("browserify-zlib"),
+      stream: require.resolve("stream-browserify"),
     },
   },
   module: {
