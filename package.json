@@ -34,6 +34,7 @@
     "convert-source-map": "^2.0.0",
     "core-js-compat": "^3.37.1",
     "cross-spawn": "^7.0.3",
+    "crypto-browserify": "^3.12.0",
     "debug": "^4.3.5",
     "electron-to-chromium": "^1.4.828",
     "enhanced-resolve": "^5.17.0",
