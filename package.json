@@ -17,6 +17,7 @@
     "ajv-formats": "^2.1.1",
     "ajv-keywords": "^3.5.2",
     "ansi-styles": "^3.2.1",
+    "assert": "^2.1.0",
     "babel-plugin-polyfill-corejs2": "^0.4.11",
     "babel-plugin-polyfill-corejs3": "^0.10.4",
     "babel-plugin-polyfill-regenerator": "^0.6.2",

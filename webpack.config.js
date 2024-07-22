@@ -21,6 +21,7 @@ module.exports = {
       querystring: require.resolve("querystring-es3"),
       os: require.resolve("os-browserify/browser"),
       constants: require.resolve("constants-browserify"),
+      assert: require.resolve("assert/"),
     },
   },
   module: {
