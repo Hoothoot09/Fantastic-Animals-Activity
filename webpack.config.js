@@ -23,6 +23,9 @@ module.exports = {
       constants: require.resolve("constants-browserify"),
       assert: require.resolve("assert/"),
       fs: require.resolve("browserify-fs"),
+      module: false,
+      preferRelative: false,
+      esbuild: false,
     },
   },
   module: {
