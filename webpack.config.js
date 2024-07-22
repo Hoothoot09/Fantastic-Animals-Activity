@@ -26,6 +26,9 @@ module.exports = {
       module: false,
       preferRelative: false,
       esbuild: false,
+      worker_threads: false,
+      child_process: false,
+      tty: require.resolve("tty-browserify"),
     },
   },
   module: {
