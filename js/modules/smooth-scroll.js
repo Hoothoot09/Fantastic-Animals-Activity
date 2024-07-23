@@ -6,6 +6,7 @@ export default class ScrollSuave {
     } else {
       this.options = options;
     }
+
     this.scrollToSection = this.scrollToSection.bind(this);
   }
 
@@ -21,6 +22,7 @@ export default class ScrollSuave {
       link.addEventListener("click", this.scrollToSection);
     });
   }
+
   init() {
     if (this.linksInternos.length) {
       this.addLinkEvent();
