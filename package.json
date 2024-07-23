@@ -126,6 +126,8 @@
     "unicode-property-aliases-ecmascript": "^2.1.0",
     "update-browserslist-db": "^1.1.0",
     "uri-js": "^4.4.1",
+    "util": "^0.12.5",
+    "vue-loader": "^17.4.2",
     "watchpack": "^2.4.1",
     "webpack-merge": "^5.10.0",
     "webpack-sources": "^3.2.3",
