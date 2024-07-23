@@ -10,8 +10,8 @@ import initFuncionamento from "./modules/funcionamento.js";
 import InitFetchAnimais from "./modules/fetch-animais.js";
 import initFetchBitcoin from "./modules/fetch-bitcoin.js";
 
-const smoothScroll = new ScrollSuave('[data-menu="suave"] a[href^="#"]');
-smoothScroll.init();
+const scrollSuave = new ScrollSuave('[data-menu="suave"] a[href^="#"]');
+scrollSuave.init();
 
 const accordion = new Accordion('[data-anime="accordion"] dt');
 accordion.init();
