@@ -1,5 +1,3 @@
-import { container } from "webpack";
-
 export default class Modal {
   constructor(botaoAbrir, botaoFechar, containerModal) {
     this.botaoAbrir = document.querySelector(botaoAbrir);
