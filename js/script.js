@@ -1,7 +1,7 @@
 import Accordion from "./modules/accordion.js";
 import initDropDownMenu from "./modules/dropdown-menu.js";
 import Modal from "./modules/modal.js";
-import initAnimacaoScroll from "./modules/scroll-animacao.js";
+import ScrollAnimation from "./modules/scroll-animation.js";
 import ScrollSuave from "./modules/smooth-scroll.js";
 import TabNav from "./modules/tabnav.js";
 import Tooltip from "./modules/tooltip.js";
@@ -32,9 +32,11 @@ modal.init();
 const tooltip = new Tooltip("[data-tooltip");
 tooltip.init();
 
+const scrollAnimation = new ScrollAnimation('[data-anime="scroll"]');
+scrollAnimation.init();
+
 fetchAnimais("../../animaisapi.json", ".numeros-grid");
 fetchBitcoin("https://blockchain.info/ticker", ".btc-preco");
 initDropDownMenu();
-initAnimacaoScroll();
 initMenuMobile();
 initFuncionamento();
