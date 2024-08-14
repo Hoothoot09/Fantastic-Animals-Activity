@@ -24,7 +24,7 @@ export default class ScrollAnimation {
   //in relation to the scroll position of the site
   checkDistance() {
     this.distance.forEach((item) => {
-      if (window.scrollYOffset > item.offset) {
+      if (window.scrollY > item.offset) {
         item.element.classList.add("ativo");
       } else if (item.element.classList.contains("ativo")) {
         item.element.classList.remove("ativo");

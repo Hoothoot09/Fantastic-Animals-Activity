@@ -30,7 +30,7 @@ const modal = new Modal(
 );
 modal.init();
 
-const tooltip = new Tooltip("[data-tooltip");
+const tooltip = new Tooltip("[data-tooltip]");
 tooltip.init();
 
 const scrollAnimation = new ScrollAnimation('[data-anime="scroll"]');
@@ -45,7 +45,7 @@ menuMobile.init();
 const operation = new Funcionamento("[data-semana]", "aberto");
 operation.init();
 
-fetchAnimais("../../animaisapi.json", ".numeros-grid");
+fetchAnimais("../../animaisapi.json", ".numbers-grid");
 fetchBitcoin("https://blockchain.info/ticker", ".btc-preco");
 
 const slide = new SlideNav(".slide", ".slide-wrapper");
