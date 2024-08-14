@@ -45,7 +45,7 @@ menuMobile.init();
 const operation = new Funcionamento("[data-semana]", "aberto");
 operation.init();
 
-fetchAnimais("../../animaisapi.json", ".numbers-grid");
+fetchAnimais("../json/animaisapi.json", ".numbers-grid");
 fetchBitcoin("https://blockchain.info/ticker", ".btc-preco");
 
 const slide = new SlideNav(".slide", ".slide-wrapper");
