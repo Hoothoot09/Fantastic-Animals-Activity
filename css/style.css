@@ -10,6 +10,11 @@
 /* FAQ */
 @import "/css/global/faq.css";
 
+/* Slide */
+@import "/css/slide/slide.css";
+@import "/css/slide/wrapper.css";
+@import "/css/slide/custom-control.css";
+
 /* Contato */
 @import "/css/global/contato.css";
 
