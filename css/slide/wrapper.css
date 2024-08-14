@@ -1,0 +1,4 @@
+.slide-wrapper {
+  overflow: hidden;
+  grid-column: 1 / -1;
+}
