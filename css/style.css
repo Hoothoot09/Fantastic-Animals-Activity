@@ -32,6 +32,9 @@
 @import "/css/menus/dropdown-menu.css";
 @import "/css/menus/menu-mobile.css";
 
+/* Arrows */
+@import "/css/arrow/arrow-black.css";
+
 /* Numeros */
 @import "/css/numeros/numeros.css";
 
